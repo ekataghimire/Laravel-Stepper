@@ -1,0 +1,42 @@
+.selectCss {
+    border-top: 1px solid rgb(186, 185, 185) !important;
+    border-bottom: 1px solid rgb(186, 185, 185) !important;
+    border-left: 1px solid rgb(186, 185, 185) !important;
+    border-right: none;
+}
+
+.inputCss {
+    border-left: none !important;
+}
+
+.nav-item:hover {
+    text-decoration: none;
+    color: black;
+}
+.dotted-list {
+    list-style-type: none;
+    margin-left: -1.5%;
+    font-size: 14px;
+}
+
+.dotted-list li:before {
+    content: "";
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: black;
+    margin-right: 5px;
+    margin-top: 3px;
+    border: 1px dotted black;
+}
+
+.sidecss {
+    margin-left: 2.5%;
+}
+
+.tablecss {
+    background-color: rgb(245, 247, 248);
+    padding: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
